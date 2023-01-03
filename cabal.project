@@ -1,0 +1,17 @@
+packages:
+  .
+
+source-repository-package
+  type: git
+  location: https://github.com/hspec/hspec
+  tag: 0b0efe944e5c3cf7d8ca9351bf43577469767c85
+  subdir: hspec-api
+
+source-repository-package
+  type: git
+  location: https://github.com/hspec/hspec
+  tag: 0b0efe944e5c3cf7d8ca9351bf43577469767c85
+  subdir: hspec-core
+
+package hspec-junit-formatter
+  ghc-options: -Werror
