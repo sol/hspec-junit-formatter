@@ -1,0 +1,24 @@
+:set -ilibrary -itests
+:set -XBangPatterns
+:set -XDeriveAnyClass
+:set -XDeriveFoldable
+:set -XDeriveFunctor
+:set -XDeriveGeneric
+:set -XDeriveLift
+:set -XDeriveTraversable
+:set -XDerivingStrategies
+:set -XFlexibleContexts
+:set -XFlexibleInstances
+:set -XGADTs
+:set -XGeneralizedNewtypeDeriving
+:set -XLambdaCase
+:set -XMultiParamTypeClasses
+:set -XNoImplicitPrelude
+:set -XNoMonomorphismRestriction
+:set -XOverloadedStrings
+:set -XRankNTypes
+:set -XRecordWildCards
+:set -XScopedTypeVariables
+:set -XStandaloneDeriving
+:set -XTypeApplications
+:set -XTypeFamilies

@@ -20,7 +20,10 @@ import Test.Hspec.Runner
 import qualified Text.XML as XML
 
 main :: IO ()
-main = hspec $ do
+main = hspec spec
+
+spec :: Spec
+spec = do
   describe "XML output" $ do
     it "matches golden file" $ do
       withJUnitReport ExampleSpec.spec $ \doc -> do
